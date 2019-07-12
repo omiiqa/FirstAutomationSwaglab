@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test suite 1"  >
+
+ <listeners>
+  <listener class-name="com.swaglab.qa.ExtentReporter.ExtentReporterNG"/>
+ 
+ </listeners>
+  <test name="suite 1" >
+    <classes>
+    <!-- <class name="com.swaglab.qa.testclass.loginpagetest"/>-->
+    <!--   <class name="com.swaglab.qa.testclass.homepagetest"/>-->
+    <!-- <class name="com.swaglab.qa.testclass.labpagetest"/>-->
+     <!--<class name="com.swaglab.qa.testclass.cartpagetest"/>-->
+     <!--<class name="com.swaglab.qa.testclass.checkoutpagetest"/>-->
+     <!--<class name="com.swaglab.qa.testclass.overviewpagetest"/>-->
+     <class name="com.swaglab.qa.testclass.finishpagetest"/>
+    </classes>
+ </test>
+</suite>

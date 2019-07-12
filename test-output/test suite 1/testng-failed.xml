@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [test suite 1]">
+  <listeners>
+    <listener class-name="com.swaglab.qa.ExtentReporter.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="suite 1(failed)">
+    <classes>
+      <class name="com.swaglab.qa.testclass.finishpagetest">
+        <methods>
+          <include name="verifythanksmsgtest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="verifyordermsgtest"/>
+        </methods>
+      </class> <!-- com.swaglab.qa.testclass.finishpagetest -->
+    </classes>
+  </test> <!-- suite 1(failed) -->
+</suite> <!-- Failed suite [test suite 1] -->
